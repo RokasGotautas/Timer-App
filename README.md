@@ -1,1 +1,1 @@
-Pamatyti app galima čia: rokotimerapp.netlify.app
+Pamatyti app galima čia: https://rokotimerapp.netlify.app
