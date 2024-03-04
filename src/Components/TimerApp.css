@@ -1,0 +1,75 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+.timer-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+  overflow: hidden;
+}
+
+.timer-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: blue;
+}
+
+.timer-header button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.timer-header button.active {
+  font-weight: bold;
+}
+
+.timer-content {
+  padding: 20px;
+}
+
+.timer-body,
+.stopwatch-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.timer-body p,
+.stopwatch-body p {
+  font-size: 36px;
+  margin: 10px 0;
+  color: black;
+}
+
+.timer-body button,
+.stopwatch-body button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  outline: none;
+}
+
+.timer-body button:disabled,
+.stopwatch-body button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.timer-body button:active,
+.stopwatch-body button:active {
+  transform: translateY(2px);
+}
