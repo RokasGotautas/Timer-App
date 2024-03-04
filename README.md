@@ -1,1 +1,1 @@
-Pamatyti app galima čia: https://master--chic-twilight-8abb8f.netlify.app
+Pamatyti app galima čia: rokotimerapp.netlify.app
